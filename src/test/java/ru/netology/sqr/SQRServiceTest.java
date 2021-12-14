@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SQRServiceTest {
 
     @ParameterizedTest
-    @CsvSource(value = {"'checking inside range limit', 200, 300, 3",
+    @CsvSource(value = {"'checking the inner boundary of the range limits', 200, 300, 3",
             "'checking over upper range limit', 400, 400, 1",
             "'checking under lower range limit', 100, 200, 5",
             "'checking upper range limit', 300, 300, 0"})
